@@ -1,0 +1,10 @@
+{
+    "PVPMU": {
+        "active": "0",
+        "reward_coin": "2",
+        "credits_type": "1",
+        "change_back": "0",
+        "min_rate": "15000",
+        "display_wcoins": 0
+    }
+}

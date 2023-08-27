@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// ### AllMonsterItemDrop::DropItem ###
+//	PlayerMinLevel: Minimum level of player, -1 for any level
+//	PlayerMaxLevel: Maximum level of player, -1 for any level
+//	MonsterMinLevel: Minimum level of monster, -1 for any level
+//	MonsterMaxLevel: Maximum level of monster, -1 for any level
+//	Cat: Category of item, see ItemList.xml
+//	Index: Index of item, see ItemList.xml
+//	MinLevel: Minimum item level to drop, 0-15
+//	MaxLevel: Maximum item level to drop, 0-15
+//	Durability: Durability of item to drop, 0 indicates automatically generated valid durability
+//	Duration: Duration of item, 0 to disable, seconds
+//	Element:
+//		~ 0: No Elemental
+//		~ 1: Fire
+//		~ 2: Water
+//		~ 3: Earth
+//		~ 4: Wind
+//		~ 5: Darkness
+//		~ -1: Use PentagramItemDropRate.xml
+//
+//	Rate: Item drop rate, max individual rate is 1000000
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<AllMonsterItemDrop>
+   
+  
+  <!--Drops de card e premio-->
+  <DropItem MonsterMinLevel="1" MonsterMaxLevel="200" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="0" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="50000" Name="Guardian Angel" />
+  <DropItem MonsterMinLevel="1" MonsterMaxLevel="200" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="1" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="50000" Name="Imp" />
+  <DropItem MonsterMinLevel="1" MonsterMaxLevel="200" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="2" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="50000" Name="Horn of Uniria" />
+  
+  <DropItem MonsterMinLevel="102" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="31" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="4500" Name="Horse Spirit" />
+  <DropItem MonsterMinLevel="96" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="31" MinLevel="1" MaxLevel="1" Durability="0" Element="0" Duration="0" Rate="18000" Name="Dark Spirit" />
+  <DropItem MonsterMinLevel="60" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="145" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="0" Name="Spirit Map Fragment" />
+  <DropItem MonsterMinLevel="1" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="21" MinLevel="3" MaxLevel="3" Durability="0" Element="0" Duration="0" Rate="45000" Name="Rena" />
+  <DropItem MonsterMinLevel="83" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="215" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1500" Name="Card Piece" />
+  <DropItem MonsterMinLevel="1" MonsterMaxLevel="100" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="215" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1000" Name="White Cherry Blossom Branch" />
+  <DropItem MonsterMinLevel="110" MonsterMaxLevel="200" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="215" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="7000" Name="Red Cherry Blossom Branch" />
+  <DropItem MonsterMinLevel="200" MonsterMaxLevel="500" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="215" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="3000" Name="Golden Cherry Blossom Branch" />
+  
+  <DropItem MonsterMinLevel="1" MonsterMaxLevel="500" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="11" MinLevel="1" MaxLevel="1" Durability="0" Element="0" Duration="0" Rate="2000" Name="Secred Birth Star" />
+  <!--<DropItem MonsterMinLevel="1" MonsterMaxLevel="500" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="11" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="3000" Name="Box Of Luck" />-->
+ 
+ <!-- Sealed Box -->
+	<DropItem MonsterMinLevel="70" MonsterMaxLevel="500" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="121" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1500" Name="Sealed Golden Box" />
+	<DropItem MonsterMinLevel="70" MonsterMaxLevel="500" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="122" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1500" Name="Sealed Silver Box" />
+ 
+    
+ 
+
+ <!--Drop Joias -->
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="15" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1300" Name="Jewel of Chaos" />
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="500" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="14" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1500" Name="Jewel of Soul" />
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="500" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="13" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1500" Name="Jewel of Bless" />
+  <DropItem MonsterMinLevel="70" MonsterMaxLevel="500" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="16" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1000" Name="Jewel of Life" />
+  <DropItem MonsterMinLevel="70" MonsterMaxLevel="500" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="700" Name="Jewel of Creation" />
+
+  <!--Blood quest-->
+  <DropItem MonsterMinLevel="1" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="17" MinLevel="1" MaxLevel="1" Durability="0" Element="0" Duration="0" Rate="22500" Name="Blood Bone" />
+  <DropItem MonsterMinLevel="61" MonsterMaxLevel="74" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="17" MinLevel="2" MaxLevel="2" Durability="0" Element="0" Duration="0" Rate="22500" Name="Blood Bone" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="84" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="17" MinLevel="3" MaxLevel="3" Durability="0" Element="0" Duration="0" Rate="22500" Name="Blood Bone" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="94" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="17" MinLevel="4" MaxLevel="4" Durability="0" Element="0" Duration="0" Rate="22500" Name="Blood Bone" />
+  <DropItem MonsterMinLevel="95" MonsterMaxLevel="102" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="17" MinLevel="5" MaxLevel="5" Durability="0" Element="0" Duration="0" Rate="22500" Name="Blood Bone" />
+  <DropItem MonsterMinLevel="103" MonsterMaxLevel="117" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="17" MinLevel="6" MaxLevel="6" Durability="0" Element="0" Duration="0" Rate="22500" Name="Blood Bone" />
+  <DropItem MonsterMinLevel="118" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="17" MinLevel="7" MaxLevel="7" Durability="0" Element="0" Duration="0" Rate="10000" Name="Blood Bone" />
+  
+  <DropItem MonsterMinLevel="1" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="16" MinLevel="1" MaxLevel="1" Durability="0" Element="0" Duration="0" Rate="22500" Name="Scroll of Archangel" />
+  <DropItem MonsterMinLevel="61" MonsterMaxLevel="74" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="16" MinLevel="2" MaxLevel="2" Durability="0" Element="0" Duration="0" Rate="22500" Name="Scroll of Archangel" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="84" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="16" MinLevel="3" MaxLevel="3" Durability="0" Element="0" Duration="0" Rate="22500" Name="Scroll of Archangel" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="94" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="16" MinLevel="4" MaxLevel="4" Durability="0" Element="0" Duration="0" Rate="22500" Name="Scroll of Archangel" />
+  <DropItem MonsterMinLevel="95" MonsterMaxLevel="102" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="16" MinLevel="5" MaxLevel="5" Durability="0" Element="0" Duration="0" Rate="22500" Name="Scroll of Archangel" />
+  <DropItem MonsterMinLevel="103" MonsterMaxLevel="117" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="16" MinLevel="6" MaxLevel="6" Durability="0" Element="0" Duration="0" Rate="22500" Name="Scroll of Archangel" />
+  <DropItem MonsterMinLevel="118" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="16" MinLevel="7" MaxLevel="7" Durability="0" Element="0" Duration="0" Rate="10000" Name="Scroll of Archangel" />
+ <!--Devil squere-->
+  <DropItem MonsterMinLevel="1" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="17" MinLevel="1" MaxLevel="1" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Eye" />
+  <DropItem MonsterMinLevel="61" MonsterMaxLevel="74" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="17" MinLevel="2" MaxLevel="2" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Eye" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="84" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="17" MinLevel="3" MaxLevel="3" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Eye" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="94" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="17" MinLevel="4" MaxLevel="4" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Eye" />
+  <DropItem MonsterMinLevel="95" MonsterMaxLevel="102" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="17" MinLevel="5" MaxLevel="5" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Eye" />
+  <DropItem MonsterMinLevel="103" MonsterMaxLevel="117" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="17" MinLevel="6" MaxLevel="6" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Eye" />
+  <DropItem MonsterMinLevel="118" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="17" MinLevel="7" MaxLevel="7" Durability="0" Element="0" Duration="0" Rate="10000" Name="Devil's Eye" />
+ 
+ <DropItem MonsterMinLevel="1" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="18" MinLevel="1" MaxLevel="1" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Key" />
+  <DropItem MonsterMinLevel="61" MonsterMaxLevel="74" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="18" MinLevel="2" MaxLevel="2" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Key" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="84" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="18" MinLevel="3" MaxLevel="3" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Key" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="94" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="18" MinLevel="4" MaxLevel="4" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Key" />
+  <DropItem MonsterMinLevel="95" MonsterMaxLevel="102" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="18" MinLevel="5" MaxLevel="5" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Key" />
+  <DropItem MonsterMinLevel="103" MonsterMaxLevel="117" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="18" MinLevel="6" MaxLevel="6" Durability="0" Element="0" Duration="0" Rate="22500" Name="Devil's Key" />
+  <DropItem MonsterMinLevel="118" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="18" MinLevel="7" MaxLevel="7" Durability="0" Element="0" Duration="0" Rate="10000" Name="Devil's Key" />
+ 
+  
+  <!--Lorencia-->
+    <DropItem MonsterMinLevel="0" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="0" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="22500" Name="apple" />
+    <DropItem MonsterMinLevel="0" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="10" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="22500" Name="Tower portal" />
+
+  <!--Scroll orbs e skill normal-->
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="20" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="8" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Healing Orb" />
+  <DropItem MonsterMinLevel="21" MonsterMaxLevel="40" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="10" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Greater Damage" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="120" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="17" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Penetration" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="120" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="18" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Ice Arrow" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="120" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="45" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Crystal of Multi-Shot" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="120" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="46" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Crystal of Recovery" />
+  <DropItem MonsterMinLevel="21" MonsterMaxLevel="50" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="9" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Greater Fortitude" />
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="20" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="0" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Poison" />
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="20" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="1" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Meteorite" />
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="20" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="2" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Lighting" />
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="20" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="3" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Fire Ball" />
+  <DropItem MonsterMinLevel="21" MonsterMaxLevel="45" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="4" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Flame" />
+  <DropItem MonsterMinLevel="21" MonsterMaxLevel="45" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="5" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Teleport" />
+  <DropItem MonsterMinLevel="20" MonsterMaxLevel="40" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="6" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Ice" />
+  <DropItem MonsterMinLevel="52" MonsterMaxLevel="70" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="8" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Evil Spirit" />
+  <DropItem MonsterMinLevel="80" MonsterMaxLevel="85" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="9" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Hellfire" />
+  <DropItem MonsterMinLevel="21" MonsterMaxLevel="50" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="10" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Power Wave" />
+  <DropItem MonsterMinLevel="72" MonsterMaxLevel="80" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="11" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Aqua Beam" />
+  <DropItem MonsterMinLevel="72" MonsterMaxLevel="90" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="12" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Cometfall" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="110" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="13" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Inferno" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="14" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Teleport Ally" />
+  <DropItem MonsterMinLevel="98" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="16" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Decay" />
+  <DropItem MonsterMinLevel="98" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="17" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Ice Storm" />
+  <DropItem MonsterMinLevel="105" MonsterMaxLevel="120" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="18" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Nova" />
+  <DropItem MonsterMinLevel="105" MonsterMaxLevel="120" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="29" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Gigantic Storm" />
+  <DropItem MonsterMinLevel="105" MonsterMaxLevel="120" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="28" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Wizardry Enhance" />
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="50" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="47" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Shining Bird Law Book" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="48" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Dragon Violent Law Book" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="100" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="50" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Reflection Barrier Book" />
+  <DropItem MonsterMinLevel="20" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="51" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Marvel Burst Law Book" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="52" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Unleash Marvel's Book" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="90" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="21" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of FireBurst" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="22" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Summon" />
+  <DropItem MonsterMinLevel="72" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="23" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Critical Damage" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="24" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Electric Spark" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="112" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="35" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Fire Scream" />
+  <DropItem MonsterMinLevel="90" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="48" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Scroll of Chaotic Diseier" />
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="271" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Spin Step Scroll" />
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="65" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="274" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Harsh Strike Scroll" />
+  <DropItem MonsterMinLevel="65" MonsterMaxLevel="100" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="273" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Magic Pin Scroll" />
+  <DropItem MonsterMinLevel="80" MonsterMaxLevel="100" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="277" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Breche Scroll" />
+  <DropItem MonsterMinLevel="55" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="272" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Obsidian Scroll" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="98" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="275" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Shining Peak Scroll" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="70" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="7" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Twisting Slash" />
+  <DropItem MonsterMinLevel="71" MonsterMaxLevel="90" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="12" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Anger Blow" />
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="30" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="13" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Impale" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="9" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Greater Fortitude" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="16" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Fire Slash" />
+  <DropItem MonsterMinLevel="76" MonsterMaxLevel="100" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="19" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Orb of Death Stab" />
+  <DropItem MonsterMinLevel="95" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="44" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Crystal of Destruction" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="47" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Crystal of Flame Strike" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="164" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Spiral Charge Orb" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="485" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Swordsman's Wrath" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="165" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Crusher Charge Orb" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="488" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Solid Protection Bead" />
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="30" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="54" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Beginner's Treatment Bead" />
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="55" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Beginner Defense Enhancement Bead" />
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="56" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Beginner Attack Power Enhancement Bead" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="57" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Beginner Recovery Bead" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="80" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="58" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Beginner Bless Bead" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="105" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="31" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Dark Side Parchment" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="30" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Chain Drive Parchment" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="32" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Dragon Roar Parchment" />
+  <DropItem MonsterMinLevel="65" MonsterMaxLevel="85" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="33" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Dragon Slasher Parchment" />
+  <DropItem MonsterMinLevel="85" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="34" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Ignore Defense Parchment" />
+  <DropItem MonsterMinLevel="20" MonsterMaxLevel="55" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="35" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Increase Health Parchment" />
+  <DropItem MonsterMinLevel="20" MonsterMaxLevel="55" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="36" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Increase Block Parchment" />
+  <DropItem MonsterMinLevel="20" MonsterMaxLevel="55" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="476" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Sword Inertia Bead" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="477" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Bat Flock Bead" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="478" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Detection Bead" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="482" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Demolish Bead" />
+  <DropItem MonsterMinLevel="20" MonsterMaxLevel="55" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="491" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Dark Plasma Bead" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="491" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Dark Plasma Bead" />
+  <DropItem MonsterMinLevel="20" MonsterMaxLevel="55" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="498" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Death Ice Ball" />
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="492" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Ice Break Bead" />
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="494" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Deathfire Orb" />
+  <DropItem MonsterMinLevel="75" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="59" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Fixed Fire Bead" />
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="30" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="20" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Drain Life Parchment" />
+  <DropItem MonsterMinLevel="0" MonsterMaxLevel="30" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="24" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Sleep Parchment" />
+  <DropItem MonsterMinLevel="31" MonsterMaxLevel="60" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="19" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Chain Lightning Parchment" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="22" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Damage Reflection Parchment" />
+  <DropItem MonsterMinLevel="60" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="22" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Damage Reflection Parchment" />
+  <DropItem MonsterMinLevel="60" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="23" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Berserker Parchment" />
+  <DropItem MonsterMinLevel="80" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="26" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Weakness Parchment" />
+  <DropItem MonsterMinLevel="80" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="21" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Lightning Shock Parchment" />
+  <DropItem MonsterMinLevel="80" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="27" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Innovation Parchment" />
+  <DropItem MonsterMinLevel="80" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="42" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Explosion Parchment" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="42" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Explosion Parchment" />
+  <DropItem MonsterMinLevel="50" MonsterMaxLevel="75" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="43" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Requiem Parchment" />
+  <DropItem MonsterMinLevel="60" MonsterMaxLevel="85" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="44" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Perlution Parchment" />
+  <DropItem MonsterMinLevel="60" MonsterMaxLevel="85" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="46" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Darkness Parchment" />
+  <DropItem MonsterMinLevel="30" MonsterMaxLevel="55" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="37" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Magic Arrow Act" />
+  <DropItem MonsterMinLevel="60" MonsterMaxLevel="85" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="38" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Plasma Ball Act" />
+  <DropItem MonsterMinLevel="60" MonsterMaxLevel="85" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="15" Index="40" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Burst Act" />
+  <DropItem MonsterMinLevel="60" MonsterMaxLevel="85" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="89" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Charge Slash Bead" />
+  <DropItem MonsterMinLevel="20" MonsterMaxLevel="85" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="88" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Illusion Avatar Bead" />
+  <DropItem MonsterMinLevel="20" MonsterMaxLevel="85" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="87" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Illusion Blade Bead" />
+  <DropItem MonsterMinLevel="60" MonsterMaxLevel="115" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="90" MinLevel="0" MaxLevel="0" Durability="0" Duration="0" Rate="15000" Name="Wind Glaive Beads" />
+
+  
+
+  
+</AllMonsterItemDrop>

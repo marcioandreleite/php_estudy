@@ -1,0 +1,11 @@
+{
+    "providers": {
+        "Facebook": {
+            "enabled": false,
+            "keys": {
+                "id": "750219230107468",
+                "secret": "1a6b283eb0c5e3288c6e7fc8bb4d2123"
+            }
+        }
+    }
+}

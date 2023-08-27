@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MonsterMapItemDrop>
+  <DropItem MonsterID="409" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="52" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="-1" Exc="-1" Element="0" SocketCount="0" Duration="0" Rate="3000" Name="Condor Flame" />
+  <DropItem MonsterID="410" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="52" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="-1" Exc="-1" Element="0" SocketCount="0" Duration="0" Rate="3000" Name="Condor Flame" />
+  <DropItem MonsterID="411" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="52" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="-1" Exc="-1" Element="0" SocketCount="0" Duration="0" Rate="3000" Name="Condor Flame" />
+</MonsterMapItemDrop>

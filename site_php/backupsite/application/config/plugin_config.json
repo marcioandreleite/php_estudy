@@ -1,0 +1,93 @@
+{
+    "mercadopago": {
+        "installed": 1,
+        "module_url": "mercadopago",
+        "admin_module_url": "mercadopago\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 0,
+        "donation_panel_item": 1,
+        "description": "Donate with MercadoPago",
+        "about": {
+            "name": "MercadoPago",
+            "version": "1.0.5",
+            "description": "https:\/\/www.mercadopago.com.br payment system",
+            "developed_by": "neo6",
+            "website": "http:\/\/dmncms.net",
+            "change_log": {
+                "1.0.0": "Initial Release",
+                "1.0.2": "Added version 1.1.9 support",
+                "1.0.3": "Added version 1.2.0 support",
+                "1.0.4": "Fix price overflow",
+                "1.0.5": "Added version 1.2.3 support"
+            }
+        }
+    },
+    "monster_kill": {
+        "installed": 1,
+        "module_url": "rankings\/monster-kill",
+        "admin_module_url": "rankings\/monster-kill\/admin",
+        "is_public": 1,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 0,
+        "donation_panel_item": 0,
+        "rankings_panel_item": 1,
+        "description": "Here you can see monster kill rankings.",
+        "about": {
+            "name": "Top Monster Killers",
+            "version": "1.0.0",
+            "description": "This plugin allows your see players who have killed most monsters.",
+            "developed_by": "neo6",
+            "website": "http:\/\/dmncms.net",
+            "change_log": {
+                "1.0.0": "Initial Release"
+            }
+        }
+    },
+    "stats_specialization": {
+        "installed": 1,
+        "module_url": "stats-specialization",
+        "admin_module_url": "stats-specialization\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 1,
+        "donation_panel_item": 0,
+        "description": "Here you can save and load your stat builds for using in different situations",
+        "about": {
+            "name": "Stats Specialization",
+            "version": "1.0.0",
+            "description": "This plugin allows your players to save their stats with different configurations PVP,PVE and load required stat build when ever it is required.",
+            "developed_by": "neo6",
+            "website": "http:\/\/dmncms.net"
+        }
+    },
+    "convert_items": {
+        "installed": 1,
+        "module_url": "https:\/\/pvpmu.net\/convert-items",
+        "admin_module_url": "https:\/\/pvpmu.net\/convert-items\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 0,
+        "donation_panel_item": 0,
+        "description": "",
+        "about": {
+            "name": "Convert Items",
+            "version": "1.0.1",
+            "description": "Convert items from 32 bit to 64 bit IGCN",
+            "developed_by": "neo6",
+            "website": "http:\/\/dmncms.net"
+        }
+    }
+}

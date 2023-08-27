@@ -1,0 +1,32 @@
+{
+    "PVPMU": {
+        "paypal": {
+            "active": "1",
+            "type": "1",
+            "sandbox": "0",
+            "email": "marcos002147@gmail.com",
+            "punish_player": "1",
+            "reward_type": "2",
+            "paypal_fee": "0",
+            "paypal_fixed_fee": "",
+            "api_username": "",
+            "api_password": "",
+            "api_signature": ""
+        },
+        "pagseguro": {
+            "active": "0",
+            "email": "bruno_curio@hotmail.com",
+            "token": "972a6a8a-3b29-47e4-9933-96d405fa698248c58a3d4660b15eabb8144772b6383f3a7d-d017-48cb-a884-ef0852e43534",
+            "reward_type": "2"
+        },
+        "paymentwall": {
+            "active": "0",
+            "api_key": "94a49f03ff064c0bac096341d153291a",
+            "secret_key": "3bc45d6ab01bbfe453b85b5ebadaa3b8",
+            "sign_version": "3",
+            "widget": "m2_1",
+            "width": "https:\/\/api.paymentwall.com\/api\/subscription\/?key=94a49f03ff064c0bac096341d153291a",
+            "reward_type": "1"
+        }
+    }
+}

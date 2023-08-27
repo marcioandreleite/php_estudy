@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2022 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+//~~ For detailed explanation of the bags system refer to ### Item Bags System Description ###.txt included in \Data\ItemBags\
+-->
+
+<ItemBag>
+<BagConfig Name="Event_LastManStanding_Reward" ItemRate="10000" SetItemRate="0" SetItemCount="1" MasterySetItemInclude="0" MoneyDrop="1400" IsPentagramForBeginnersDrop="0" PartyDropRate="0" PartyOneDropOnly="0" PartyShareType="0" BagUseEffect="-1" BagUseType="0" GCStorageType="0" GCRewardType="0"  BagUseRate="10000" />
+<SummonBook Enable="0" DropRate="0" ItemCat="0" ItemIndex="0" />
+<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+
+<DropSection UseMode="-1" DisplayName="Section 1">
+	<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+		<Drop Rate="2450" Type="0" Count="1">
+		<!-- Eternal Wing Helm-->
+		<Item Cat="7" Index="44" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan  Helm-->
+		<Item Cat="7" Index="45" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Brave Helm-->
+		<Item Cat="7" Index="46" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Phantom  Armor-->
+		<Item Cat="8" Index="47" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Eternal Wing Armor-->
+		<Item Cat="8" Index="44" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan  Armor-->
+		<Item Cat="8" Index="45" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Brave Armor-->
+		<Item Cat="8" Index="46" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Phantom  Pants-->
+		<Item Cat="9" Index="47" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Eternal Wing Pants-->
+		<Item Cat="9" Index="44" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan  Pants-->
+		<Item Cat="9" Index="45" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Brave Pants-->
+		<Item Cat="9" Index="46" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Phantom  Gloves-->
+		<Item Cat="10" Index="47" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Eternal Wing Gloves-->
+		<Item Cat="10" Index="44" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan  Gloves-->
+		<Item Cat="10" Index="45" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Brave Gloves-->
+		<Item Cat="10" Index="46" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Phantom Boots-->
+		<Item Cat="11" Index="47" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Eternal Wing Boots-->
+		<Item Cat="11" Index="44" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan Boots-->
+		<Item Cat="11" Index="45" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Brave Boots-->
+		<Item Cat="11" Index="46" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+        </Drop>
+				
+		<Drop Rate="200" Count="1" Type="0">
+		<!-- Seraphim Helm-->
+		<Item Cat="7" Index="49" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Divine Helm-->
+		<Item Cat="7" Index="50" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Royal Mask-->
+		<Item Cat="7" Index="51" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Destroy Armor-->
+		<Item Cat="8" Index="48" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Seraphim Armor-->
+		<Item Cat="8" Index="49" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Divine Armor-->
+		<Item Cat="8" Index="50" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Royal Armor-->
+		<Item Cat="8" Index="51" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Destroy Pants-->
+		<Item Cat="9" Index="48" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Seraphim Pants-->
+		<Item Cat="9" Index="49" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Divine Pants-->
+		<Item Cat="9" Index="50" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Royal Pants-->
+		<Item Cat="9" Index="51" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Destroy Gloves-->
+		<Item Cat="10" Index="48" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Seraphim Gloves-->
+		<Item Cat="10" Index="49" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Divine Gloves-->
+		<Item Cat="10" Index="50" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Royal Gloves-->
+		<Item Cat="10" Index="51" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Destroy Boots-->
+		<Item Cat="11" Index="48" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Seraphim Boots-->
+		<Item Cat="11" Index="49" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Divine Boots-->
+		<Item Cat="11" Index="50" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Royal Boots-->
+		<Item Cat="11" Index="51" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+	    </Drop>
+				
+		<Drop Rate="200" Count="1" Type="0">
+		<!-- Hades Helm-->
+		<Item Cat="7" Index="52" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Rune Divine Helmet-->
+		<Item Cat="7" Index="120" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Grace Helm-->
+		<Item Cat="7" Index="148" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Tigris Helm-->
+		<Item Cat="7" Index="146" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Hades Armor-->
+		<Item Cat="8" Index="52" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Rune Devine Armor-->
+		<Item Cat="8" Index="120" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Grace Armor-->
+		<Item Cat="8" Index="148" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Tigris Armor-->
+		<Item Cat="8" Index="146" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Rune Divine Pants-->
+		<Item Cat="9" Index="120" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Grace Pants-->
+		<Item Cat="9" Index="148" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Tigris Pants-->
+		<Item Cat="9" Index="146" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Hades Pants-->
+		<Item Cat="9" Index="52" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Rune Divine Gloves-->
+		<Item Cat="10" Index="120" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Grace Gloves-->
+		<Item Cat="10" Index="148" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Tigris Boots-->
+		<Item Cat="11" Index="146" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Hades Gloves-->
+		<Item Cat="10" Index="52" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Rune Divine Boots-->
+		<Item Cat="11" Index="120" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Grace Boots-->
+		<Item Cat="11" Index="148" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Hades Boots-->
+		<Item Cat="11" Index="52" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+	    </Drop>
+				
+		<Drop Rate="200" Count="1" Type="0">
+		<!-- Fidelity Helm-->
+		<Item Cat="7" Index="178" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan Gunner Helmet-->
+		<Item Cat="7" Index="210" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Bright Helmet-->
+		<Item Cat="7" Index="239" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Finesse Helmet-->
+		<Item Cat="7" Index="257" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Fidelity Armor-->
+		<Item Cat="8" Index="178" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan Gunner Armor-->
+		<Item Cat="8" Index="210" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Bright Armor-->
+		<Item Cat="8" Index="239" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Finesse Armor-->
+		<Item Cat="8" Index="257" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Fidelity Pants-->
+		<Item Cat="9" Index="178" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Finesse Pants-->
+		<Item Cat="9" Index="257" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan Gunner Pants-->
+		<Item Cat="9" Index="210" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Bright Pants-->
+		<Item Cat="9" Index="239" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Fidelity Gloves-->
+		<Item Cat="10" Index="178" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Finesse Gloves-->
+		<Item Cat="10" Index="257" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan Gunner Gloves-->
+		<Item Cat="10" Index="210" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Bright Gloves-->
+		<Item Cat="10" Index="239" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Fidelity Boots-->
+		<Item Cat="11" Index="178" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Finesse Boots-->
+		<Item Cat="11" Index="257" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Titan Gunner Boots-->
+		<Item Cat="11" Index="210" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Bright Boots-->
+		<Item Cat="11" Index="239" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Sword Breaker-->
+		<Item Cat="0" Index="27" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Rune Bastard Sword-->
+		<Item Cat="0" Index="28" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Pantera Claws-->
+		<Item Cat="0" Index="52" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Paring Short Sword-->
+		<Item Cat="0" Index="69" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Dragon Blade-->
+		<Item Cat="0" Index="103" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+	    </Drop>
+				
+		<Drop Rate="200" Count="1" Type="0">
+		<!-- Primal Helmet-->
+		<Item Cat="7" Index="304" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Primal Armor-->
+		<Item Cat="8" Index="304" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Primal Pants-->
+		<Item Cat="9" Index="304" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Primal Gloves-->
+		<Item Cat="10" Index="304" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Primal Boots-->
+		<Item Cat="11" Index="304" Level="0" Durability="255" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Crimson Glory-->
+		<Item Cat="6" Index="17" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Salamander Shield-->
+		<Item Cat="6" Index="18" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Frost Barrier-->
+		<Item Cat="6" Index="19" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Guardian Shield-->
+		<Item Cat="6" Index="20" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Grace Shield-->
+		<Item Cat="6" Index="40" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Eternal Wing Stick-->
+		<Item Cat="5" Index="20" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Deadly Staff-->
+		<Item Cat="5" Index="30" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Inberial Staff-->
+		<Item Cat="5" Index="31" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Wise Magic Book-->
+		<Item Cat="5" Index="71" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Spinel Orb-->
+		<Item Cat="5" Index="84" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Dark Stinger-->
+		<Item Cat="4" Index="23" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Weiwen Magic Gun-->
+		<Item Cat="4" Index="44" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Frost Mace-->
+		<Item Cat="2" Index="16" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Magmus Peer-->
+		<Item Cat="3" Index="12" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Rectuus Lance-->
+		<Item Cat="3" Index="22" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Cannon Magic Gun-->
+		<Item Cat="4" Index="45" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Absolute Scepter-->
+		<Item Cat="2" Index="17" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Frost Rune Mace-->
+		<Item Cat="2" Index="30" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+		<!-- Flameberge-->
+		<Item Cat="0" Index="26" Level="0" Durability="255" Skill="1" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="5" Elemental="0" Serial="1" />
+			
+		</Drop>
+	</DropAllow>
+</DropSection>
+</ItemBag>

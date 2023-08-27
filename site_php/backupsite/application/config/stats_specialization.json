@@ -1,0 +1,9 @@
+{
+    "PVPMU": {
+        "active": "0",
+        "req_level": "1000",
+        "max_specializations": "5",
+        "price": "40000",
+        "payment_type": "2"
+    }
+}

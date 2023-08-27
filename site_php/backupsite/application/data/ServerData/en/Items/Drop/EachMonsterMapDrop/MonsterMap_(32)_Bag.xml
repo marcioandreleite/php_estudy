@@ -1,0 +1,25 @@
+﻿
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+//~~ For detailed explanation of the Each Monster Map Drop system refer to ### Each Bag System Description ###.txt included in \Data\Items\Drop\EachMonsterMapDrop
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<MonsterMapItemDrop>
+<!-- DS 6 e 7 Ticket Varka-->
+	<DropItem MonsterID="786" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="20" Index="108" MinLevel="0" MaxLevel="0" Durability="1" Skill="-1" Luck="-1" Option="-1" Exc="-1" Element="0" SocketCount="0" Duration="0" Rate="100" Name="Varka Entrance Ticket" />
+	<DropItem MonsterID="787" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="20" Index="108" MinLevel="0" MaxLevel="0" Durability="1" Skill="-1" Luck="-1" Option="-1" Exc="-1" Element="0" SocketCount="0" Duration="0" Rate="100" Name="Varka Entrance Ticket" />
+	<DropItem MonsterID="848" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="20" Index="108" MinLevel="0" MaxLevel="0" Durability="1" Skill="-1" Luck="-1" Option="-1" Exc="-1" Element="0" SocketCount="0" Duration="0" Rate="100" Name="Varka Entrance Ticket" />
+	
+	<DropItem MonsterID="845" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="20" Index="108" MinLevel="0" MaxLevel="0" Durability="1" Skill="-1" Luck="-1" Option="-1" Exc="-1" Element="0" SocketCount="0" Duration="0" Rate="100" Name="Varka Entrance Ticket" />
+	<DropItem MonsterID="846" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="20" Index="108" MinLevel="0" MaxLevel="0" Durability="1" Skill="-1" Luck="-1" Option="-1" Exc="-1" Element="0" SocketCount="0" Duration="0" Rate="100" Name="Varka Entrance Ticket" />
+	<DropItem MonsterID="916" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="20" Index="108" MinLevel="0" MaxLevel="0" Durability="1" Skill="-1" Luck="-1" Option="-1" Exc="-1" Element="0" SocketCount="0" Duration="0" Rate="100" Name="Varka Entrance Ticket" />
+	
+</MonsterMapItemDrop>

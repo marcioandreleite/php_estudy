@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Lv_Reward_Box" ItemRate="10000" SetItemRate="0" SetItemCount="1" MoneyDrop="1000" BagUseType="0" GCStorageType="0" GCRewardType="0"  BagUseRate="10000" BagUseEffect="-1" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0" PartyShareType="0" PartyOneDropOnly="0" />
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="0" MaxValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Section 1" UseMode="-1">
+		
+		<DropAllow DW="0" DK="1" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel Knight Helm-->
+				<Item Cat="7" Index="98" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Knight Armor-->
+				<Item Cat="8" Index="98" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Knight Pants-->
+				<Item Cat="9" Index="98" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Knight Boots-->
+				<Item Cat="11" Index="98" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="1" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel Wizard Helm-->
+				<Item Cat="7" Index="99" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Wizard Armor-->
+				<Item Cat="8" Index="99" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Wizard Pants-->
+				<Item Cat="9" Index="99" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Wizard Gloves-->
+				<Item Cat="10" Index="99" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel ELF Helm-->
+				<Item Cat="7" Index="100" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel ELF Armor-->
+				<Item Cat="8" Index="100" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel ELF Pants-->
+				<Item Cat="9" Index="100" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel ELF Gloves-->
+				<Item Cat="10" Index="100" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel Summoner Helm-->
+				<Item Cat="7" Index="101" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Summoner Armor-->
+				<Item Cat="8" Index="101" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Summoner Pants-->
+				<Item Cat="9" Index="101" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel Summoner Gloves-->
+				<Item Cat="10" Index="101" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel DarkLord Helm-->
+				<Item Cat="7" Index="103" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel DarkLord Armor-->
+				<Item Cat="8" Index="103" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel DarkLord Pants-->
+				<Item Cat="9" Index="103" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel DarkLord Boots-->
+				<Item Cat="10" Index="103" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel MG Armor-->
+				<Item Cat="8" Index="102" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel MG Pants-->
+				<Item Cat="9" Index="102" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel MG Boots-->
+				<Item Cat="10" Index="102" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel MG Boots-->
+				<Item Cat="11" Index="102" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel RF Helm-->
+				<Item Cat="7" Index="104" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel RF Armor-->
+				<Item Cat="8" Index="104" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel RF Pants-->
+				<Item Cat="9" Index="104" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel RF Boots-->
+				<Item Cat="11" Index="104" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel GL Helm-->
+				<Item Cat="7" Index="105" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel GL Armor-->
+				<Item Cat="8" Index="105" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel GL Pants-->
+				<Item Cat="9" Index="105" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel GL Gloves-->
+				<Item Cat="10" Index="105" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SLA="0" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel RW Helm-->
+				<Item Cat="7" Index="122" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel RW Armor-->
+				<Item Cat="8" Index="122" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel RW Pants-->
+				<Item Cat="9" Index="122" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel RW Gloves-->
+				<Item Cat="10" Index="122" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="1" GC="0" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel SL Helm-->
+				<Item Cat="7" Index="180" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel SL Armor-->
+				<Item Cat="8" Index="180" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel SL Pants-->
+				<Item Cat="9" Index="180" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel SL Gloves-->
+				<Item Cat="10" Index="180" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="1" LW="0" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Bloodangel GC Helm-->
+				<Item Cat="7" Index="212" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel GC Armor-->
+				<Item Cat="8" Index="212" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel GC Pants-->
+				<Item Cat="9" Index="212" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Bloodangel GC Boots-->
+				<Item Cat="11" Index="212" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="1" LM="0" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DW">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Blood Angel Light Wizard Helmet-->
+				<Item Cat="7" Index="241" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blood Angel Light Wizard Armor-->
+				<Item Cat="8" Index="241" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blood Angel Light Wizard Pants-->
+				<Item Cat="9" Index="241" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blood Angel Light Wizard Gloves-->
+				<Item Cat="10" Index="241" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="1" IK="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA DW">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Blood Angel Mage Helmet-->
+				<Item Cat="7" Index="259" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blood Angel Mage Armor-->
+				<Item Cat="8" Index="259" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blood Angel Mage Pants-->
+				<Item Cat="9" Index="259" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blood Angel Mage Gloves-->
+				<Item Cat="10" Index="259" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+		<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="9999" MapNumber="-1" DisplayName="BA IK">
+			<Drop Rate="10000" Count="1" Type="1">
+				<!--Blood Angel Illusion Knight Helmet-->
+				<Item Cat="7" Index="306" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blood Angel Illusion Knight Armor-->
+				<Item Cat="8" Index="306" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blood Angel Illusion Knight Pants-->
+				<Item Cat="9" Index="306" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+				<!--Blood Angel Illusion Knight Gloves-->
+				<Item Cat="10" Index="306" ItemMinLevel="9" ItemMaxLevel="9" Duration="1296000" Skill="1" Luck="1" Option="-1" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

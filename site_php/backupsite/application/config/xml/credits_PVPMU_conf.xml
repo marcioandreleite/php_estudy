@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<credits_PVPMU_conf>
+  <credits_PVPMU>
+    <db_1>web</db_1>
+    <table_1>DmN_Shop_Credits</table_1>
+    <account_column_1>memb___id</account_column_1>
+    <credits_column_1>credits</credits_column_1>
+    <title_1>Credits</title_1>
+    <db_2>account</db_2>
+    <table_2>T_InGameShop_Point</table_2>
+    <account_column_2>AccountID</account_column_2>
+    <credits_column_2>WCoin</credits_column_2>
+    <title_2>WCoins</title_2>
+    <db_3>account</db_3>
+    <table_3>T_InGameShop_Point</table_3>
+    <account_column_3>AccountID</account_column_3>
+    <credits_column_3>GoblinPoint</credits_column_3>
+    <title_3>Goblin Points</title_3>
+  </credits_PVPMU>
+</credits_PVPMU_conf>

@@ -1,0 +1,238 @@
+{
+	"active": 1,
+	"drop_by_map": 0,
+	"drop_by_monster": 1,
+	"drop_by_event": 1,
+	"drop_by_item": 1,
+	"defined_names":{
+		"Crest of Monarch":{
+			"id": 14,
+			"cat": 13,
+			"lvl": 1
+		},
+		"Box of Kundun +1":{
+			"id": 14,
+			"cat": 11,
+			"lvl": 8
+		}
+	},
+	"monster_list":{
+		"18": "Monster_(18)_Gorgon",
+		"25": "Monster_(25)_Ice_Queen",
+		"38": "Monster_(38)_Balrog",
+		"43": "Monster_(43)_Golden_Budge_Dragon",
+		"44": "Monster_(44)_Dragon_Red",
+		"49": "Monster_(49)_Hydra",
+		"50": "Monster_(50)_Sea_Worm",
+		"53": "Monster_(53)_Golden_Titan",
+		"54": "Monster_(54)_Golden_Soldier",
+		"55": "Monster_(55)_Death_King",
+		"59": "Monster_(59)_Zaikan",
+		"66": "Monster_(66)_Cursed_King",
+		"67": "Monster_(67)_Metal_Balrog",
+		"78": "Monster_(78)_Golden_Goblin",
+		"78": "Monster_(78)_Golden_Goblin",
+		"79": "Monster_(79)_Golden_Dragon",
+		"80": "Monster_(80)_Golden_Lizard_Kingn",
+		"81": "Monster_(81)_Golden_Vepar",
+		"82": "Monster_(82)_Golden_Tantalos",
+		"83": "Monster_(83)_Golden_Wheel",
+		"135": "Monster_(135)_White_wizard",
+		"275": "Monster_(275)_Kundun",
+		"295": "Monster_(295)_Erohim",
+		"340": "Monster_(340)_Dark_Elf",
+		"349": "Monster_(349)_Balgass",
+		"361": "Monster_(361)_Nightmare",
+		"362": "Monster_(362)_Mayas_Left_Hand",
+		"363": "Monster_(363)_Mayas_Right_Hand",
+		"365": "Monster_(365)_Pouch_of_Blessing",
+		"413": "Monster_(413)_Lunar_Rabbit",
+		"414": "Monster_(414)_Helper_Ellen",
+		"459": "Monster_(459)_Selupan",
+		"463": "Monster_(463)_Fire_Flame_Ghost",
+		"493": "Monster_(493)_Golden_Dark_Knight",
+		"494": "Monster_(494)_Golden_Devil",
+		"495": "Monster_(495)_Golden_Stone_Golem",
+		"496": "Monster_(496)_Golden_Crust",
+		"497": "Monster_(497)_Golden_Satyros",
+		"498": "Monster_(498)_Golden_Twin_Tail",
+		"499": "Monster_(499)_Golden_Iron_Knight",
+		"500": "Monster_(500)_Golden_Napin",
+		"501": "Monster_(501)_Golden_Great_Dragon",
+		"502": "Monster_(502)_Golden_Rabbit",
+		"509": "Monster_(509)_Vermont",
+		"549": "Monster_(549)_Bloody_Orc",
+		"550": "Monster_(550)_Bloody_Death_Rider",
+		"551": "Event_Monster_(551)_Bloody_Golem",
+		"552": "Monster_(552)_Bloody_Witch_Queen",
+		"553": "Monster_(553)_Berserker_Warrior",
+		"554": "Monster_(554)_Kentauros_Warrior",
+		"555": "Monster_(555)_Gigantis_Warrior",
+		"556": "Monster_(556)_Genocider_Warrior",
+		"560": "Event_Monster_(560)_Sapi_Queen",
+		"561": "Monster_(561)_Medusa",
+		"562": "Monster_(562)_Dark_Mammoth",
+		"563": "Monster_(563)_Dark_Giant",
+		"564": "Monster_(564)_Dark_Coolutin",
+		"565": "Monster_(565)_Dark_Iron_Knight",
+		"632": "Monster_(632)_Cursed_Undine",
+		"633": "Monster_(633)_Cursed_Salamander",
+		"634": "Monster_(634)_Cursed_Sylphid",
+		"635": "Monster_(635)_Cursed_Gnome",
+		"636": "Monster_(636)_Cursed_Hellraiser",
+		"637": "Monster_(637)_Cursed_Sellihoden",
+		"647": "Monster_(647)_Snake_Green",
+		"648": "Monster_(648)_Snake_Yellow",
+		"649": "Monster_(649)_Snake_Purple",
+		"650": "Monster_(650)_Snake_Red",
+		"652": "Monster_(652)_Golden_Goblin",
+		"653": "Monster_(653)_Golden_Titan",
+		"654": "Monster_(654)_Golden_Tantalose",
+		"655": "Monster_(655)_Golden_Erohim",
+		"656": "Monster_(656)_Golden_Hell_Maine",
+		"657": "Monster_(657)_Golden_Kundun",
+		"673": "Monster_(673)_Lord_Silvester",
+		"674": "Monster_(674)_Moon_Rabbit",
+		"675": "Monster_(675)_Pouch_of_Blessing",
+		"676": "Monster_(676)_Fire_Flame_Ghost",
+		"677": "Monster_(677)_Golden_Goblin",
+		"691": "Monster_(691)_Horse_Green",
+		"692": "Monster_(692)_Horse_Yellow",
+		"693": "Monster_(693)_Horse_Brown",
+		"694": "Monster_(694)_Horse_Blue",
+		"709": "Monster_(709)_Chaos_Goblin",
+		"710": "Monster_(710)_Chaos_Goblin",
+		"711": "Monster_(711)_Chaos_Goblin",
+		"712": "Monster_(712)_Chaos_Goblin",
+		"716": "Monster_(716)_Core_Magriffy",
+		"726": "Monster_(726)_Sheep_Green",
+		"727": "Monster_(727)_Sheep_White",
+		"728": "Monster_(728)_Sheep_Purple",
+		"729": "Monster_(729)_Sheep_Red",
+		"734": "Monster_(734)_Lord_of_Ferea",
+		"739": "Monster_(739)_Monkey_Green",
+		"740": "Monster_(740)_Monkey_White",
+		"741": "Monster_(741)_Monkey_Purple",
+		"742": "Monster_(742)_Monkey_Red",
+		"746": "Monster_(746)_Knicks",
+		"759": "Monster_(759)_Rooster_Green",
+		"760": "Monster_(760)_Rooster_White",
+		"761": "Monster_(761)_Rooster_Purple",
+		"762": "Monster_(762)_Rooster_Red",
+		"778": "Event_Monster_(778)_Elite_Deep_Dungeon_Gorgon",
+		"794": "Monster_(794)_God_of_Darkness",
+		"839": "Monster_(839)_Elite_Great_Bahamut_of_Abyss",
+		"840": "Monster_(840)_Elite_Lizard_King_of_Abyss",
+		"848": "Monster_(848)_Elite_Scorched_Warrior",
+		"849": "Monster_(849)_Elite_Scorched_Assassins",
+		"850": "Monster_(850)_Elite_Scorched_Wizard",
+		"864": "Event_Monster_(864)_Elite_Great_Drakan",
+		"865": "Event_Monster_(865)_Elite_Phoenix_of_Darkness",
+		"870": "Event_Monster_(870)_Elite_Temple_Ogre",
+		"871": "Event_Monster_(871)_Elite_Temple_Gremlin",
+		"872": "Event_Monster_(872)_Elite_Temple_Gargoyle",
+		"879": "Event_Monster_(879)_Elite_Ashy_Golem",
+		"880": "Event_Monster_(880)_Elite_Ashy_Bloody_Witch_Queen",
+		"898": "Event_Monster_(898)_Elite_Crimson_Lycan",
+		"899": "Event_Monster_(899)_Elite_Crimson_Minos",
+		"900": "Event_Monster_(900)_Elite_Crimson_Harpy",
+		"901": "Monster_(901)_Tiger_Green",
+		"902": "Monster_(902)_Tiger_Yellow",
+		"903": "Monster_(903)_Tiger_Purple",
+		"904": "Monster_(904)_Tiger_Red",
+		"908": "Event_Monster_(908)_Elite_Underground_Persona",
+		"909": "Event_Monster_(909)_Elite_Underground_Twin_Tale",
+		"910": "Event_Monster_(910)_Elite_Underground_Dreadfear",
+		"914": "Event_Monster_(914)_Elite_Magma_Gladiator",
+		"915": "Event_Monster_(915)_Elite_Magma_Hook",
+		"916": "Event_Monster_(916)_Elite_Magma_Shaman",
+		"919": "Monster_(919)_Illusion_of_Kundun",
+		"921": "Monster_(921)_Medusa",
+		"922": "Monster_(922)_Selupan",
+		"923": "Monster_(923)_Nix",
+		"924": "Monster_(924)_God_of_Darkness"
+
+	},
+	"event_list":{
+		"1": {
+			"file": "Item_(14,11,5)_Silver_Medal",
+			"name": "Silver Medal"
+		},	
+		"2": {
+			"file": "Item_(14,11,6)_Gold_Medal",
+			"name": "Gold Medal"
+		},
+		"3": {
+			"file": "Item_(14,11,7)_Heaven_Box",
+			"name": "Heaven Box"
+		},
+		"4": {
+			"file": "Item_(14,11,8)_Kundun_Box+1",
+			"name": "Box of Kundun +1"
+		},
+		"5": {
+			"file": "Item_(14,11,9)_Kundun_Box+2",
+			"name": "Box of Kundun +2"
+		},
+		"6": {
+			"file": "Item_(14,11,10)_Kundun_Box+3",
+			"name": "Box of Kundun +3"
+		},
+		"7": {
+			"file": "Item_(14,11,11)_Kundun_Box+4",
+			"name": "Box of Kundun +4"
+		},
+		"8": {
+			"file": "Item_(14,11,12)_Kundun_Box+5",
+			"name": "Box of Kundun +5"
+		},
+		"9": {
+			"file": "Event_BloodCastle(5)_Reward",
+			"name": "BloodCastle 5"
+		},
+		"10": {
+			"file": "Event_BloodCastle(6)_Reward",
+			"name": "BloodCastle 6"
+		},
+		"11": {
+			"file": "Event_BloodCastle(7)_Reward",
+			"name": "BloodCastle 7"
+		},
+		"12": {
+			"file": "Event_ChaosCastle(5)_Reward",
+			"name": "ChaosCastle 5"
+		},
+		"13": {
+			"file": "Event_ChaosCastle(6)_Reward",
+			"name": "ChaosCastle 6"
+		},
+		"14": {
+			"file": "Event_ChaosCastle(7)_Reward",
+			"name": "ChaosCastle 7"
+		},
+		"15": {
+			"file": "Event_IllusionTemple_Renewal_5",
+			"name": "IllusionTemple Renewal 4"
+		},
+		"16": {
+			"file": "Event_IllusionTemple_Renewal_6",
+			"name": "IllusionTemple Renewal "
+		},
+		"17": {
+			"file": "Event_AcheronGuardian_Reward",
+			"name": "AcheronGuardian"
+		},
+		"18": {
+			"file": "Item_(13,210,0)_WereRabbit_Egg",
+			"name": "Egg"
+		},
+		"19": {
+			"file": "Item_(14,123,0)_Golden_Box",
+			"name": "Golden Box"
+		},	
+		"20": {
+			"file": "Item_(14,124,0)_Silver_Box",
+			"name": "Silver Box"
+		}
+	}
+}

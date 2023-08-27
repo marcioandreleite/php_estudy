@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2022 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+//~~ For detailed explanation of the bags system refer to ### Item Bags System Description ###.txt included in \Data\ItemBags\
+-->
+
+<ItemBag>
+<BagConfig Name="Event_Raffle_HitOrder_1" ItemRate="10000" SetItemRate="0" SetItemCount="1" MasterySetItemInclude="0" MoneyDrop="10000" IsPentagramForBeginnersDrop="0" PartyDropRate="0" PartyOneDropOnly="0" PartyShareType="0" BagUseEffect="-1" BagUseType="0" GCStorageType="0" GCRewardType="0"  BagUseRate="10000" />
+<SummonBook Enable="0" DropRate="0" ItemCat="0" ItemIndex="0" />
+<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+
+<DropSection UseMode="-1" DisplayName="Section 1">
+	<DropAllow DW="1" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+		<Drop Rate="2000" Type="0" Count="3">
+			
+		</Drop>
+	</DropAllow>
+</DropSection>
+</ItemBag>

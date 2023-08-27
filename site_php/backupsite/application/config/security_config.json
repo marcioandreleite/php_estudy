@@ -1,0 +1,6 @@
+{
+    "captcha_type": 3,
+    "recaptcha_pub_key": "6LfTR5wlAAAAAHUIF3G0d7a5lmex25u1lghOQc2k",
+    "recaptcha_priv_key": "6LfTR5wlAAAAAJeWalYXZ2vMkAbrWlkktHN30chJ",
+    "captcha_on_login": "0"
+}

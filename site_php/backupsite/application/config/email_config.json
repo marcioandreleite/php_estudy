@@ -1,0 +1,16 @@
+{
+    "server_email": "contato.pvpmu@hotmail.com",
+    "mail_mode": 0,
+    "smtp_server": "smtp.office365.com",
+    "smtp_port": 587,
+    "smtp_username": "contato.pvpmu@hotmail.com",
+    "smtp_password": "PvPMu2023&Bruno&Mark",
+    "smtp_auth": 1,
+    "smtp_use_ssl": 2,
+    "welcome_email": 1,
+    "vip_purchase_email": 1,
+    "donate_email_user": 1,
+    "donate_email_admin": 1,
+    "support_email_user": 1,
+    "support_email_admin": 1
+}

@@ -1,0 +1,29 @@
+{
+    "en": {
+        "default": {
+            "title": "%server_title%",
+            "keywords": "%server_title%, Welcome, Server, MuOnline, Season 18.2, Hard",
+            "description": "Cadastre-se já e receba diversas recompensas enquanto joga, incluindo, Buffs. A Season 18 chegou! Junte-se a nós, faça amizades, trave batalhas! Junte-se ao novo meta de Gameplay. O melhor do MU Online! Hard, No-Reset, Season 18."
+        },
+        "Home": {
+            "title": "%server_title% Home",
+            "keywords": "%server_title%, Server, MuOnline, Season 18.2, Hard",
+            "description": "Welcome to PvP MuOnline Season 18.2 Join us!"
+        },
+        "Registration": {
+            "title": "%server_title% Register for free rewards",
+            "keywords": "%server_title%, Register, NewAccout, Server, MuOnline, Season 18.2, Hard",
+            "description": "Register and receive freebies Earn rewards for levelling"
+        },
+        "Login": {
+            "title": "%server_title% Login everyday for free rewards",
+            "keywords": "%server_title%, Login, Server, MuOnline, Season 18.2, Hard",
+            "description": "Check your levelling rewards Receive a reward each level mile"
+        },
+        "Downloads": {
+            "title": "%server_title% Download Game Now",
+            "keywords": "%server_title%, Register, NewAccout, PvP, Battle, Custom Plugin, Season 18.2, Hard",
+            "description": "Download now and start your adventure in PvPMu!"
+        }
+    }
+}

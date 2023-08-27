@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Monster_(746)_Knicks" ItemRate="10000" SetItemRate="0" SetItemCount="1" MoneyDrop="200" BagUseRate="10000" BagUseEffect="-1" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0" PartyShareType="0" PartyOneDropOnly="0" />
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="10000" Count="3" Type="0">
+				<!--Jewel of Creation-->
+				<Item Cat="14" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Gemstone-->
+				<Item Cat="14" Index="41" ItemMinLevel="0" ItemMaxLevel="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Soul-->
+				<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Bless-->
+				<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Jewel of Chaos-->
+				<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Durability="10" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Three Vacancies-->
+				<Item Cat="13" Index="510" ItemMinLevel="0" ItemMaxLevel="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--PvP Gold Coin-->
+				<Item Cat="14" Index="120" ItemMinLevel="0" ItemMaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="-1" />
+				<!--PvP Gold Coin-->
+				<Item Cat="14" Index="120" ItemMinLevel="0" ItemMaxLevel="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="-1" />
+				<!--PvP Gold Coin-->
+				<Item Cat="14" Index="120" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="-1" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+	<DropSection DisplayName="Section 2" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="10" Count="1" Type="0">
+				<!--Rex Millon-->
+				<Item Cat="16" Index="70" ItemMinLevel="1" ItemMaxLevel="1" Duration="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="10" Count="1" Type="0">
+				<!--Knicks-->
+				<Item Cat="16" Index="112" ItemMinLevel="1" ItemMaxLevel="1" Duration="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="900" Count="2" Type="0">
+				<!--Runedil's Goldentune Harp-->
+				<Item Cat="12" Index="306" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Lemuria's Orb-->
+				<Item Cat="12" Index="307" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+				<!--Norrwen's Bloodstring Lyra-->
+				<Item Cat="12" Index="308" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" />
+			</Drop>
+			<Drop Rate="1000" Count="2" Type="0">
+				<!--Battle Jasper Necklace-->
+				<Item Cat="20" Index="41" ItemMinLevel="0" ItemMaxLevel="0" Duration="0" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="-2" ElementalItem="0" />
+				<!--Battle Lagoon Necklace-->
+				<Item Cat="20" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Duration="0" Skill="-1" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="-2" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+	<DropSection DisplayName="Section 3" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="500" Count="3" Type="0">
+				<!--Sculpture-->
+				<Item Cat="14" Index="466" ItemMinLevel="0" ItemMaxLevel="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="500" Count="1" Type="0">
+				<!--Holyangel Anvil-->
+				<Item Cat="14" Index="416" ItemMinLevel="0" ItemMaxLevel="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Pentagram Emblem-->
+				<Item Cat="12" Index="509" ItemMinLevel="0" ItemMaxLevel="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="700" Count="1" Type="0">
+				<!--Guardian Enhanced Stone-->
+				<Item Cat="14" Index="467" ItemMinLevel="0" ItemMaxLevel="0" Durability="30" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Elite Guardian Enhanced-->
+				<Item Cat="14" Index="468" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="3" Type="0">
+				<!--Dragee of Strength-->
+				<Item Cat="14" Index="439" ItemMinLevel="0" ItemMaxLevel="0" Duration="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Fungus of Death-->
+				<Item Cat="14" Index="438" ItemMinLevel="0" ItemMaxLevel="0" Duration="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Speed Medicine-->
+				<Item Cat="14" Index="434" ItemMinLevel="0" ItemMaxLevel="0" Duration="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Power Medicine-->
+				<Item Cat="14" Index="435" ItemMinLevel="0" ItemMaxLevel="0" Duration="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spell Medicine-->
+				<Item Cat="14" Index="436" ItemMinLevel="0" ItemMaxLevel="0" Duration="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Defense Medicine-->
+				<Item Cat="14" Index="437" ItemMinLevel="0" ItemMaxLevel="0" Duration="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+	<DropSection DisplayName="Section 3" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="3000" Count="2" Type="0">
+				<!--Boss Entrance Kalima 5-->
+				<Item Cat="14" Index="148" ItemMinLevel="0" ItemMaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="-1" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

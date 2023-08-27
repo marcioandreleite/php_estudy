@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Modification of the file requires changes on Game Client side in \Data\Local\Eng\socketitem_eng.bmd
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### SocketSystem::SocketItemOptionSettings::Option ###
+//	Index: Index of Seed option
+//	ElementType: 
+//		1 ~ Fire
+//		2 ~ Water
+//		3 ~ Ice
+//		4 ~ Wind
+//		5 ~ Light
+//		6 ~ Earth
+//	Level: Level on an option, 0-5
+//	BonusType: Type of Bonus
+//		0 ~ None
+//		1 ~ Value
+//		2 ~ Rate
+//		3 ~ Per Level
+//		4 ~ Per HP
+//		5 ~ Per MP
+//	BonusValue1: Value of Bonus at option level 1
+//	BonusValue2: Value of Bonus at option level 2
+//	BonusValue3: Value of Bonus at option level 3
+//	BonusValue4: Value of Bonus at option level 4
+//	BonusValue5: Value of Bonus at option level 5
+//	PoolValue: Probability chance to get desired option calculated from sum of PoolValue of all seeds (higher value more chance to add the option)
+//	Name: Name of an option, used for logging and in-file description purpose
+//
+// ### SocketSystem::SocketBonusSettings::Option ###
+//	Index: 
+//	MinItemType: Minimum Item Type (Category) of items the bonus option can be applied to, 0-11, MinItemType should be lower or equal to MaxItemType
+//	MaxItemType:  Maximum Item Type (Category) of items the bonus option can be applied to, 0-11, MaxItemType should be higher or equal to MinItemType
+//	BonusType: Type of bonus option
+//		0 ~ None
+//		1 ~ Value
+//		2 ~ Rate
+//		3 ~ Per Level
+//		4 ~ Per HP
+//		5 ~ Per MP
+//	BonusValue: Value of bonus option
+//	BonusRate: Chance Rate to get specified option, n/100
+//	ElementType1: Type of element, 0-6
+//	ElementType2: Type of element, 0-6
+//	ElementType3:  Type of element, 0-6
+//	ElementType4:  Type of element, 0-6
+//	ElementType5:  Type of element, 0-6
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//		1 ~ Fire
+//		2 ~ Water
+//		3 ~ Ice
+//		4 ~ Wind
+//		5 ~ Light
+//		6 ~ Earth
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	Name: Name of Bonus option used for logging and in-file description purpose
+//
+// ### SocketSystem::SpecialOptionSettings::Option ###
+//	Index: Index of bonus option
+//	Type: Not used at the moment
+//	BonusType: Type of bonus
+//		0 ~ None
+//		1 ~ Value
+//		2 ~ Rate
+//		3 ~ Per Level
+//		4 ~ Per HP
+//		5 ~ Per MP
+//	BonusValue: Value of Bonus option
+//	BonusRate: Chance Rate to get specified option, n/100
+//	SeedCountFire: Minimum count of active Seed of specified type to activate specified option
+//	SeedCountWater: Minimum count of active Seed of specified type to activate specified option
+//	SeedCountIce: Minimum count of active Seed of specified type to activate specified option
+//	SeedCountWind: Minimum count of active Seed of specified type to activate specified option
+//	SeedCountLight: Minimum count of active Seed of specified type to activate specified option
+//	SeedCountEarth: Minimum count of active Seed of specified type to activate specified option
+//	Name: Name of Bonus option used for logging and in-file description purpose
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<SocketSystem>
+	<SocketItemOptionSettings>
+		<!-- Fire - Attack Strengthening (0-8) -->
+			<Option Index="0"  ElementType="1" Level="0" BonusType="3" BonusValue1="10"    BonusValue2="15"  BonusValue3="20"  BonusValue4="25"  BonusValue5="30"  BonusValue6="35"  BonusValue7="40"  BonusValue8="45"  BonusValue9="50"  BonusValue10="55"  BonusValue11="60"  BonusValue12="65"  BonusValue13="70"   BonusValue14="75"   BonusValue15="80"   BonusValue16="85"   BonusValue17="90"   BonusValue18="95"   BonusValue19="100"   BonusValue20="110"   PoolValue="30" Name="Increases DMG and Wizardry DMG for every 20 levels." />
+			<Option Index="1"  ElementType="1" Level="1" BonusType="1" BonusValue1="7"     BonusValue2="8"   BonusValue3="9"   BonusValue4="10"  BonusValue5="11"  BonusValue6="12"  BonusValue7="13"  BonusValue8="14"  BonusValue9="15"  BonusValue10="16"  BonusValue11="17"  BonusValue12="18"  BonusValue13="19"   BonusValue14="20"   BonusValue15="21"   BonusValue16="22"   BonusValue17="23"   BonusValue18="24"   BonusValue19="25"   BonusValue20="26"   PoolValue="20" Name="Attack speed increase" />
+			<Option Index="2"  ElementType="1" Level="2" BonusType="1" BonusValue1="300"   BonusValue2="320"  BonusValue3="350"  BonusValue4="400"  BonusValue5="450"  BonusValue6="500"  BonusValue7="550"  BonusValue8="610"  BonusValue9="670"  BonusValue10="730"  BonusValue11="830"  BonusValue12="930"  BonusValue13="1030"  BonusValue14="1130"  BonusValue15="1230"  BonusValue16="136"  BonusValue17="1490"  BonusValue18="1620"  BonusValue19="1750"  BonusValue20="1880"  PoolValue="30" Name="Maximum attack/Wizardry increase" />
+			<Option Index="3"  ElementType="1" Level="3" BonusType="1" BonusValue1="200"   BonusValue2="220"  BonusValue3="250"  BonusValue4="300"  BonusValue5="350"  BonusValue6="400"  BonusValue7="450"  BonusValue8="510"  BonusValue9="570"  BonusValue10="630"  BonusValue11="730"  BonusValue12="830"  BonusValue13="930"   BonusValue14="1030"  BonusValue15="1130"  BonusValue16="126"  BonusValue17="1390"  BonusValue18="1520"  BonusValue19="1650"  BonusValue20="1780"  PoolValue="40" Name="Minimum attack/Wizardry increase" />
+			<Option Index="4"  ElementType="1" Level="4" BonusType="1" BonusValue1="200"   BonusValue2="220"  BonusValue3="250"  BonusValue4="300"  BonusValue5="350"  BonusValue6="400"  BonusValue7="450"  BonusValue8="510"  BonusValue9="570"  BonusValue10="630"  BonusValue11="730"  BonusValue12="830"  BonusValue13="930"   BonusValue14="1030"  BonusValue15="1130"  BonusValue16="1260"  BonusValue17="1390"  BonusValue18="1520"  BonusValue19="1650"  BonusValue20="1780"  PoolValue="20" Name="Attack/Wizardry increase" />
+			<Option Index="5"  ElementType="1" Level="5" BonusType="2" BonusValue1="40"    BonusValue2="41"  BonusValue3="42"  BonusValue4="43"  BonusValue5="44"  BonusValue6="45"  BonusValue7="46"  BonusValue8="47"  BonusValue9="48"  BonusValue10="49"  BonusValue11="50"  BonusValue12="51"  BonusValue13="52"   BonusValue14="53"   BonusValue15="54"   BonusValue16="55"   BonusValue17="56"   BonusValue18="57"   BonusValue19="58"   BonusValue20="59"   PoolValue="30" Name="AG cost decrease" />
+		<!-- Water - Defensibility (9~15, 41) -->                                                                    
+			<Option Index="10" ElementType="2" Level="0" BonusType="1" BonusValue1="100"   BonusValue2="110"  BonusValue3="120"  BonusValue4="130"  BonusValue5="150"  BonusValue6="170"  BonusValue7="200"  BonusValue8="250"  BonusValue9="300"  BonusValue10="400"  BonusValue11="450"  BonusValue12="500"  BonusValue13="550"   BonusValue14="600"   BonusValue15="700"   BonusValue16="750"   BonusValue17="800"   BonusValue18="850"   BonusValue19="900"   BonusValue20="1000"   PoolValue="10" Name="Block rating increase" />
+			<Option Index="11" ElementType="2" Level="1" BonusType="1" BonusValue1="300"   BonusValue2="330"  BonusValue3="360"  BonusValue4="390"  BonusValue5="410"  BonusValue6="440"  BonusValue7="470"  BonusValue8="510"  BonusValue9="550"  BonusValue10="600"  BonusValue11="650"  BonusValue12="710"  BonusValue13="770"   BonusValue14="840"   BonusValue15="910"   BonusValue16="990"   BonusValue17="1070"  BonusValue18="1160"  BonusValue19="1250"  BonusValue20="1350"  PoolValue="30" Name="Defense increase" />
+			<Option Index="12" ElementType="2" Level="2" BonusType="2" BonusValue1="300"   BonusValue2="350" BonusValue3="450" BonusValue4="500" BonusValue5="550" BonusValue6="600" BonusValue7="650" BonusValue8="700" BonusValue9="750" BonusValue10="800" BonusValue11="850" BonusValue12="900" BonusValue13="950"  BonusValue14="1000"  BonusValue15="1050"  BonusValue16="1100"  BonusValue17="1150"  BonusValue18="1200" BonusValue19="1250" BonusValue20="1300" PoolValue="50" Name="Shield protection increase" />
+			<Option Index="13" ElementType="2" Level="3" BonusType="2" BonusValue1="1"     BonusValue2="2"   BonusValue3="3"   BonusValue4="4"   BonusValue5="5"   BonusValue6="6"   BonusValue7="7"  BonusValue8="8"  BonusValue9="9"  BonusValue10="10"  BonusValue11="11"  BonusValue12="12"  BonusValue13="13"   BonusValue14="14"   BonusValue15="15"   BonusValue16="16"   BonusValue17="17"   BonusValue18="18"   BonusValue19="19"   BonusValue20="20"   PoolValue="20" Name="Damage reduction" />
+			<Option Index="14" ElementType="2" Level="4" BonusType="2" BonusValue1="1"     BonusValue2="2"   BonusValue3="3"   BonusValue4="4"   BonusValue5="5"   BonusValue6="6"  BonusValue7="7"  BonusValue8="8"  BonusValue9="9"  BonusValue10="10"  BonusValue11="11"  BonusValue12="12"  BonusValue13="13"   BonusValue14="14"   BonusValue15="15"   BonusValue16="16"   BonusValue17="17"   BonusValue18="18"   BonusValue19="19"   BonusValue20="20"   PoolValue="40" Name="Damage reflection" />
+		<!-- Ice - Weapon Enhancement (16~20, 42~44) -->                                                             
+			<Option Index="16" ElementType="3" Level="0" BonusType="1" BonusValue1="250"   BonusValue2="280" BonusValue3="310" BonusValue4="340" BonusValue5="372" BonusValue6="404" BonusValue7="436" BonusValue8="471" BonusValue9="506" BonusValue10="541" BonusValue11="578" BonusValue12="615" BonusValue13="652"  BonusValue14="689"  BonusValue15="726"  BonusValue16="766"  BonusValue17="806"  BonusValue18="846"  BonusValue19="886"  BonusValue20="926"  PoolValue="30" Name="Monster destruction for the Life increase" />
+			<Option Index="17" ElementType="3" Level="1" BonusType="1" BonusValue1="400"   BonusValue2="450" BonusValue3="500" BonusValue4="550" BonusValue5="601" BonusValue6="652" BonusValue7="703" BonusValue8="755" BonusValue9="807" BonusValue10="859" BonusValue11="914" BonusValue12="969" BonusValue13="1024" BonusValue14="1079" BonusValue15="1134" BonusValue16="1191" BonusValue17="1248" BonusValue18="1305" BonusValue19="1362" BonusValue20="1419" PoolValue="20" Name="Monster destruction for the Mana increase" />
+			<Option Index="18" ElementType="3" Level="2" BonusType="1" BonusValue1="100"   BonusValue2="150"  BonusValue3="200"  BonusValue4="250"  BonusValue5="300"  BonusValue6="350"  BonusValue7="400"  BonusValue8="450"  BonusValue9="500"  BonusValue10="550" BonusValue11="600" BonusValue12="650" BonusValue13="700"  BonusValue14="750"  BonusValue15="800"  BonusValue16="850"  BonusValue17="900"  BonusValue18="950"  BonusValue19="1000"  BonusValue20="1500"  PoolValue="10" Name="Skill attack increase" />
+			<Option Index="19" ElementType="3" Level="3" BonusType="1" BonusValue1="50"    BonusValue2="100"  BonusValue3="150"  BonusValue4="200"  BonusValue5="250"  BonusValue6="300"  BonusValue7="350"  BonusValue8="400"  BonusValue9="450"  BonusValue10="500"  BonusValue11="550"  BonusValue12="600" BonusValue13="650"  BonusValue14="700"  BonusValue15="750"  BonusValue16="800"  BonusValue17="850"  BonusValue18="900"  BonusValue19="950"  BonusValue20="1400"  PoolValue="50" Name="Attack rating increase" />
+			<Option Index="20" ElementType="3" Level="4" BonusType="2" BonusValue1="30"    BonusValue2="32"  BonusValue3="34"  BonusValue4="36"  BonusValue5="40"  BonusValue6="44"  BonusValue7="49"  BonusValue8="54"  BonusValue9="60"  BonusValue10="66"  BonusValue11="73"  BonusValue12="80"  BonusValue13="88"   BonusValue14="96"   BonusValue15="105"  BonusValue16="114"  BonusValue17="124"  BonusValue18="134"  BonusValue19="145"  BonusValue20="165"  PoolValue="30" Name="Item durability increase" />
+		<!-- Wind - Armor Enhancement (21~28, 45) -->                                                                
+			<Option Index="21" ElementType="4" Level="0" BonusType="1" BonusValue1="8"     BonusValue2="10"  BonusValue3="13"  BonusValue4="16"  BonusValue5="21"  BonusValue6="26"  BonusValue7="31"  BonusValue8="38"  BonusValue9="45"  BonusValue10="52"  BonusValue11="61"  BonusValue12="70"  BonusValue13="79"   BonusValue14="88"   BonusValue15="97"   BonusValue16="110"  BonusValue17="123"  BonusValue18="136"  BonusValue19="149"  BonusValue20="162"  PoolValue="40" Name="Automatic Life recovery increase" />
+			<Option Index="22" ElementType="4" Level="1" BonusType="1" BonusValue1="200"   BonusValue2="250" BonusValue3="300" BonusValue4="350" BonusValue5="400" BonusValue6="450" BonusValue7="500" BonusValue8="550" BonusValue9="600" BonusValue10="650" BonusValue11="700" BonusValue12="750" BonusValue13="800"  BonusValue14="850"  BonusValue15="900"  BonusValue16="950"  BonusValue17="1000"  BonusValue18="1050"  BonusValue19="1100"  BonusValue20="2000"  PoolValue="30" Name="Maximum Life increase" />
+			<Option Index="23" ElementType="4" Level="2" BonusType="1" BonusValue1="150  " BonusValue2="200" BonusValue3="250" BonusValue4="300" BonusValue5="350" BonusValue6="400" BonusValue7="450" BonusValue8="500" BonusValue9="550" BonusValue10="600" BonusValue11="650" BonusValue12="700" BonusValue13="750"  BonusValue14="800"  BonusValue15="850"  BonusValue16="900"  BonusValue17="950"  BonusValue18="1000"  BonusValue19="1050"  BonusValue20="1800"  PoolValue="40" Name="Maximum Mana increase" />
+			<Option Index="24" ElementType="4" Level="3" BonusType="1" BonusValue1="7"     BonusValue2="14"  BonusValue3="21"  BonusValue4="28"  BonusValue5="37"  BonusValue6="46"  BonusValue7="55"  BonusValue8="66"  BonusValue9="77"  BonusValue10="88"  BonusValue11="101" BonusValue12="114" BonusValue13="127"  BonusValue14="140"  BonusValue15="153"  BonusValue16="171"  BonusValue17="189"  BonusValue18="207"  BonusValue19="225"  BonusValue20="243"  PoolValue="50" Name="Automatic Mana recovery increase" />
+			<Option Index="25" ElementType="4" Level="4" BonusType="1" BonusValue1="70"    BonusValue2="82"  BonusValue3="95"  BonusValue4="110" BonusValue5="126" BonusValue6="143" BonusValue7="162" BonusValue8="182" BonusValue9="203" BonusValue10="226" BonusValue11="250" BonusValue12="275" BonusValue13="302"  BonusValue14="330"  BonusValue15="359"  BonusValue16="390"  BonusValue17="422"  BonusValue18="455"  BonusValue19="490"  BonusValue20="526"  PoolValue="40" Name="Maximum AG increase" />
+			<Option Index="26" ElementType="4" Level="5" BonusType="1" BonusValue1="5"     BonusValue2="7"   BonusValue3="9"   BonusValue4="11"  BonusValue5="13"  BonusValue6="15"  BonusValue7="17"  BonusValue8="19"  BonusValue9="21"  BonusValue10="23"  BonusValue11="25"  BonusValue12="27"  BonusValue13="29"   BonusValue14="31"   BonusValue15="33"   BonusValue16="35"   BonusValue17="37"   BonusValue18="39"   BonusValue19="41"   BonusValue20="43"   PoolValue="50" Name="AG value increase" />
+		<!-- Lightening - Combat Enhancement (29~33, 46~48)	-->                                                      
+			<Option Index="29" ElementType="5" Level="0" BonusType="1" BonusValue1="50"    BonusValue2="100"  BonusValue3="150"  BonusValue4="200"  BonusValue5="250"  BonusValue6="300"  BonusValue7="350"  BonusValue8="400"  BonusValue9="450"  BonusValue10="500"  BonusValue11="550"  BonusValue12="600" BonusValue13="650"  BonusValue14="700"  BonusValue15="750"  BonusValue16="800"  BonusValue17="850"  BonusValue18="900"  BonusValue19="950"  BonusValue20="1500"  PoolValue="20" Name="Excellent damage increase" />
+			<Option Index="30" ElementType="5" Level="1" BonusType="2" BonusValue1="4"     BonusValue2="5"  BonusValue3="6"  BonusValue4="7"  BonusValue5="8"  BonusValue6="9"  BonusValue7="10"  BonusValue8="11"  BonusValue9="12"  BonusValue10="13"  BonusValue11="14"  BonusValue12="15"  BonusValue13="16"   BonusValue14="17"   BonusValue15="18"   BonusValue16="19"   BonusValue17="20"   BonusValue18="21"   BonusValue19="22"   BonusValue20="25"   PoolValue="10" Name="Excellent damage rate increase" />
+			<Option Index="31" ElementType="5" Level="2" BonusType="1" BonusValue1="50"    BonusValue2="100"  BonusValue3="150"  BonusValue4="200"  BonusValue5="250"  BonusValue6="300"  BonusValue7="350"  BonusValue8="400"  BonusValue9="450"  BonusValue10="500" BonusValue11="550" BonusValue12="600" BonusValue13="650"  BonusValue14="700"  BonusValue15="750"  BonusValue16="800"  BonusValue17="850"  BonusValue18="900"  BonusValue19="950"  BonusValue20="1500"  PoolValue="1500" Name="Critical damage increase" />
+			<Option Index="32" ElementType="5" Level="3" BonusType="2" BonusValue1="4"     BonusValue2="5"   BonusValue3="6"  BonusValue4="7"  BonusValue5="8"  BonusValue6="9"  BonusValue7="10"  BonusValue8="11"  BonusValue9="12"  BonusValue10="13"  BonusValue11="14"  BonusValue12="15"  BonusValue13="16"   BonusValue14="17"   BonusValue15="18"   BonusValue16="19"   BonusValue17="20"   BonusValue18="21"   BonusValue19="22"   BonusValue20="25"   PoolValue="10" Name="Critical damage rate increase" />
+		<!-- Earth - Statistics Enhancement (34~40, 49) -->                                                          
+			<Option Index="34" ElementType="6" Level="0" BonusType="1" BonusValue1="100"   BonusValue2="130"   BonusValue3="140"   BonusValue4="150"  BonusValue5="160"  BonusValue6="170"  BonusValue7="180"  BonusValue8="190"  BonusValue9="200"  BonusValue10="250"  BonusValue11="260"  BonusValue12="270"  BonusValue13="280"   BonusValue14="290"   BonusValue15="300"   BonusValue16="320"   BonusValue17="340"   BonusValue18="360"   BonusValue19="380"   BonusValue20="400"   PoolValue="10"     Name="Strength increase" />
+			<Option Index="35" ElementType="6" Level="1" BonusType="1" BonusValue1="100"   BonusValue2="130"   BonusValue3="140"   BonusValue4="150"   BonusValue5="160"   BonusValue6="170"   BonusValue7="180"   BonusValue8="190"  BonusValue9="200"  BonusValue10="250"  BonusValue11="260"  BonusValue12="270"  BonusValue13="280"   BonusValue14="290"   BonusValue15="300"   BonusValue16="320"   BonusValue17="340"   BonusValue18="360"   BonusValue19="380"   BonusValue20="400"   PoolValue="10" Name="Agility increase" />
+			<Option Index="36" ElementType="6" Level="2" BonusType="1" BonusValue1="300"   BonusValue2="350"  BonusValue3="370"  BonusValue4="390"  BonusValue5="410"  BonusValue6="430"  BonusValue7="450"  BonusValue8="470"  BonusValue9="490"  BonusValue10="510"  BonusValue11="550"  BonusValue12="600"  BonusValue13="650"   BonusValue14="700"   BonusValue15="800"   BonusValue16="900"   BonusValue17="1000"  BonusValue18="1100"  BonusValue19="1200"  BonusValue20="1500"  PoolValue="10"        Name="Health increase" />
+			<Option Index="37" ElementType="6" Level="3" BonusType="1" BonusValue1="100"   BonusValue2="130"  BonusValue3="140"  BonusValue4="150"  BonusValue5="160"  BonusValue6="170"  BonusValue7="180"  BonusValue8="190"  BonusValue9="200"  BonusValue10="250"  BonusValue11="260"  BonusValue12="270"  BonusValue13="280"   BonusValue14="290"   BonusValue15="300"   BonusValue16="320"   BonusValue17="340"   BonusValue18="360"   BonusValue19="380"  BonusValue20="400"  PoolValue="10"          Name="Energy increase" />
+	</SocketItemOptionSettings>
+
+	<SocketBonusSettings> <!-- Bonus options 0-5 are dedicated only for Seeds level 1-3, options 6-11 dedicated for Seed level 4 -->
+		<Option Index="0"  MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="511" BonusRate="60" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack" />
+		<Option Index="1"  MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="511" BonusRate="60" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="2"  MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="505"  BonusRate="70" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack Power and Magical Damage" />
+		<Option Index="3"  MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="511" BonusRate="70" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="4"  MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="524" BonusRate="80" ElementType1="2" ElementType2="6" ElementType3="4" ElementType4="0" ElementType5="0" Name="Increases Defense" />
+		<Option Index="5"  MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="529" BonusRate="80" ElementType1="6" ElementType2="4" ElementType3="2" ElementType4="0" ElementType5="0" Name="Increases MAX Life" />
+	<!-- -->
+		<Option Index="6"  MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="522" BonusRate="60" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack" />
+		<Option Index="7"  MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="522" BonusRate="60" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="8"  MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="510" BonusRate="70" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack Power and Magical Damage" />
+		<Option Index="9"  MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="522" BonusRate="70" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="10" MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="527" BonusRate="80" ElementType1="2" ElementType2="6" ElementType3="4" ElementType4="0" ElementType5="0" Name="Increases Defense" />
+		<Option Index="11" MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="531" BonusRate="80" ElementType1="6" ElementType2="4" ElementType3="2" ElementType4="0" ElementType5="0" Name="Increases MAX Life" />
+	<!-- -->
+		<Option Index="12" MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="533" BonusRate="60" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack" />
+		<Option Index="13" MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="533" BonusRate="60" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="14" MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="515" BonusRate="70" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack Power and Magical Damage" />
+		<Option Index="15" MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="533" BonusRate="70" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="16" MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="530" BonusRate="80" ElementType1="2" ElementType2="6" ElementType3="4" ElementType4="0" ElementType5="0" Name="Increases Defense" />
+		<Option Index="17" MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="533" BonusRate="80" ElementType1="6" ElementType2="4" ElementType3="2" ElementType4="0" ElementType5="0" Name="Increases MAX Life" />
+	<!-- -->
+		<Option Index="18" MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="544" BonusRate="60" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack" />
+		<Option Index="19" MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="544" BonusRate="60" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="20" MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="520" BonusRate="70" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack Power and Magical Damage" />
+		<Option Index="21" MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="544" BonusRate="70" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="22" MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="533" BonusRate="80" ElementType1="2" ElementType2="6" ElementType3="4" ElementType4="0" ElementType5="0" Name="Increases Defense"	 />
+		<Option Index="23" MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="535" BonusRate="80" ElementType1="6" ElementType2="4" ElementType3="2" ElementType4="0" ElementType5="0" Name="Increases MAX Life" />
+	<!-- -->
+		<Option Index="24" MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="555" BonusRate="60" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack" />
+		<Option Index="25" MinItemType="0" MaxItemType="4"	BonusType="1" BonusValue="555" BonusRate="60" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="26" MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="525" BonusRate="70" ElementType1="1" ElementType2="5" ElementType3="3" ElementType4="0" ElementType5="0" Name="Increases Attack Power and Magical Damage" />
+		<Option Index="27" MinItemType="5" MaxItemType="5"	BonusType="1" BonusValue="555" BonusRate="70" ElementType1="5" ElementType2="3" ElementType3="1" ElementType4="0" ElementType5="0" Name="Increase Skill Damage" />
+		<Option Index="28" MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="536" BonusRate="80" ElementType1="2" ElementType2="6" ElementType3="4" ElementType4="0" ElementType5="0" Name="Increases Defense" />
+		<Option Index="29" MinItemType="6" MaxItemType="20"	BonusType="1" BonusValue="537" BonusRate="80" ElementType1="6" ElementType2="4" ElementType3="2" ElementType4="0" ElementType5="0" Name="Increases MAX Life" />
+	</SocketBonusSettings>
+
+	<SpecialOptionSettings>
+		<Option Index="0" Type="0" BonusType="2" BonusValue="20" BonusRate="80" SeedCountFire="1" SeedCountWater="1" SeedCountIce="1" SeedCountWind="1" SeedCountLight="1" SeedCountEarth="1" Name="Double damage rate Increase" />
+		<Option Index="1" Type="0" BonusType="2" BonusValue="15" BonusRate="70" SeedCountFire="1" SeedCountWater="3" SeedCountIce="1" SeedCountWind="3" SeedCountLight="1" SeedCountEarth="2" Name="Opponent defensibility ignorance Attack" />
+	</SpecialOptionSettings>
+</SocketSystem>

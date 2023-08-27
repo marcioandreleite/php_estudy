@@ -1,0 +1,112 @@
+{
+    "PVPMU": {
+        "active": 1,
+        "player": {
+            "is_sidebar_module": 1,
+            "count": 50,
+            "count_in_sidebar": 5,
+            "cache_time": 60,
+            "display_resets": 0,
+            "display_gresets": 0,
+            "display_master_level": 1,
+            "display_status": 1,
+            "display_gms": 0,
+            "excluded_list": "ADMIN,GMaster",
+            "display_country": 1
+        },
+        "guild": {
+            "is_sidebar_module": 1,
+            "count": 50,
+            "count_in_sidebar": 5,
+            "cache_time": 60,
+            "excluded_list": "Staff",
+            "order_by": 4
+        },
+        "gens": {
+            "count": 20,
+            "cache_time": 5,
+            "type": "igcn"
+        },
+        "voter": {
+            "is_sidebar_module": 0,
+            "count": 50,
+            "count_in_sidebar": 5,
+            "cache_time": 60,
+            "excluded_list": "ADMIN,GMaster",
+            "display_country": 1
+        },
+        "killer": {
+            "is_sidebar_module": 0,
+            "count": 50,
+            "count_in_sidebar": 5,
+            "cache_time": 60,
+            "display_resets": 0,
+            "display_gresets": 0,
+            "display_master_level": 1,
+            "display_gms": 0,
+            "excluded_list": "ADMIN,GMaster",
+            "display_country": 1
+        },
+        "online": {
+            "is_sidebar_module": 0,
+            "count": 50,
+            "count_in_sidebar": 5,
+            "cache_time": 60,
+            "excluded_list": "",
+            "display_country": 1
+        },
+        "online_list": {
+            "active": "1",
+            "cache_time": 60,
+            "display_resets": 0,
+            "display_gresets": 0,
+            "display_gms": 0,
+            "excluded_list": "ADMIN,GMaster",
+            "display_country": 1
+        },
+        "bc": {
+            "is_sidebar_module": 1,
+            "count": 50,
+            "count_in_sidebar": 5,
+            "cache_time": 60,
+            "excluded_list": "ADMIN,GMaster",
+            "is_monthly_reward": "0",
+            "amount_of_players_to_reward": "1",
+            "reward_formula": "",
+            "reward_type": "1"
+        },
+        "ds": {
+            "is_sidebar_module": 1,
+            "count": 50,
+            "count_in_sidebar": 5,
+            "cache_time": 60,
+            "excluded_list": "ADMIN,GMaster",
+            "is_monthly_reward": "0",
+            "amount_of_players_to_reward": "1",
+            "reward_formula": "",
+            "reward_type": "1"
+        },
+        "cc": {
+            "is_sidebar_module": 1,
+            "count": 50,
+            "count_in_sidebar": 5,
+            "cache_time": 60,
+            "excluded_list": "ADMIN,GMaster",
+            "is_monthly_reward": "0",
+            "amount_of_players_to_reward": "1",
+            "reward_formula": "",
+            "reward_type": "1"
+        },
+        "duels": {
+            "is_sidebar_module": 0,
+            "count": 50,
+            "count_in_sidebar": 5,
+            "cache_time": 60,
+            "excluded_list": "ADMIN,GMaster",
+            "is_monthly_reward": "0",
+            "amount_of_players_to_reward": "1",
+            "reward_formula": "",
+            "reward_type": "1"
+        }
+    }
+}

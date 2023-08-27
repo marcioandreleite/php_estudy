@@ -1,0 +1,67 @@
+{
+    "PVPMU": {
+        "resets": {
+            "db": "game",
+            "table": "Character",
+            "column": "",
+            "identifier_column": "Name"
+        },
+        "grand_resets": {
+            "db": "game",
+            "table": "Character",
+            "column": "",
+            "identifier_column": "Name"
+        },
+        "wcoins": {
+            "db": "game",
+            "table": "T_InGameShop_Point",
+            "column": "WCoin",
+            "identifier_column": "AccountID"
+        },
+        "goblinpoint": {
+            "db": "game",
+            "table": "T_InGameShop_Point",
+            "column": "GoblinPoint",
+            "identifier_column": "AccountID"
+        },
+        "master_level": {
+            "db": "game",
+            "table": "Character",
+            "column": "mLevel",
+            "identifier_column": "Name"
+        },
+        "bc": {
+            "db": "Ranking",
+            "table": "EVENT_INFO_BC_5TH",
+            "column": "Point",
+            "identifier_column": "CharacterName"
+        },
+        "ds": {
+            "db": "Ranking",
+            "table": "EVENT_INFO",
+            "column": "Point",
+            "identifier_column": "CharacterName"
+        },
+        "cc": {
+            "db": "Ranking",
+            "table": "EVENT_INFO_CC",
+            "column": "Wins",
+            "identifier_column": "Name",
+            "column2": "PKillCount",
+            "column3": "MKillCount"
+        },
+        "cs": {
+            "db": "game",
+            "table": "",
+            "column": "",
+            "identifier_column": ""
+        },
+        "duels": {
+            "db": "game",
+            "table": "Character",
+            "column": "WinDuels",
+            "identifier_column": "Name",
+            "column2": "LoseDuels"
+        }
+    }
+}

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<ItemBag>
+	<BagConfig Name="Item_Purple_Box" ItemRate="10000" SetItemRate="0" SetItemCount="1" MoneyDrop="100000" BagUseType="0" GCStorageType="0" GCRewardType="0"  BagUseRate="10000" BagUseEffect="-1" IsPentagramForBeginnersDrop="0" MasterySetItemInclude="0" PartyDropRate="0" PartyShareType="0" PartyOneDropOnly="0" />
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="14" ItemIndex="217" />
+	<DropSection DisplayName="Section 1" UseMode="-1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1" DisplayName="DropAllow">
+			<Drop Rate="500" Count="1" Type="1">
+				<!--Spider Artifact Type 1-->
+				<Item Cat="20" Index="96" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 2-->
+				<Item Cat="20" Index="97" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 3-->
+				<Item Cat="20" Index="98" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 4-->
+				<Item Cat="20" Index="99" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 5-->
+				<Item Cat="20" Index="100" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 7-->
+				<Item Cat="20" Index="102" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="1">
+				<!--Spider Artifact Type 1-->
+				<Item Cat="20" Index="96" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="1;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 1-->
+				<Item Cat="20" Index="96" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="1;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 1-->
+				<Item Cat="20" Index="96" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="2;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 1-->
+				<Item Cat="20" Index="96" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="2;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 1-->
+				<Item Cat="20" Index="96" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="3;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 1-->
+				<Item Cat="20" Index="96" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="3;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 1-->
+				<Item Cat="20" Index="96" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="4;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 1-->
+				<Item Cat="20" Index="96" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="4;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="1">
+				<!--Spider Artifact Type 2-->
+				<Item Cat="20" Index="97" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="5;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 2-->
+				<Item Cat="20" Index="97" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="5;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 2-->
+				<Item Cat="20" Index="97" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="6;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 2-->
+				<Item Cat="20" Index="97" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="6;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 2-->
+				<Item Cat="20" Index="97" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="7;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 2-->
+				<Item Cat="20" Index="97" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="7;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 2-->
+				<Item Cat="20" Index="97" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="8;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 2-->
+				<Item Cat="20" Index="97" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="8;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="1">
+				<!--Spider Artifact Type 3-->
+				<Item Cat="20" Index="98" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="10;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 3-->
+				<Item Cat="20" Index="98" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="10;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 3-->
+				<Item Cat="20" Index="98" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="12;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 3-->
+				<Item Cat="20" Index="98" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="12;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 3-->
+				<Item Cat="20" Index="98" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="13;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 3-->
+				<Item Cat="20" Index="98" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="13;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="1">
+				<!--Spider Artifact Type 4-->
+				<Item Cat="20" Index="99" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="14;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 4-->
+				<Item Cat="20" Index="99" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="14;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 4-->
+				<Item Cat="20" Index="99" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="15;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 4-->
+				<Item Cat="20" Index="99" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="15;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 4-->
+				<Item Cat="20" Index="99" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="16;5;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 4-->
+				<Item Cat="20" Index="99" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="17;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 4-->
+				<Item Cat="20" Index="99" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="17;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="1">
+				<!--Spider Artifact Type 5-->
+				<Item Cat="20" Index="100" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="18;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 5-->
+				<Item Cat="20" Index="100" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="18;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 5-->
+				<Item Cat="20" Index="100" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="19;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 5-->
+				<Item Cat="20" Index="100" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="19;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 5-->
+				<Item Cat="20" Index="100" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="20;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 5-->
+				<Item Cat="20" Index="100" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="20;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 5-->
+				<Item Cat="20" Index="100" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="21;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 5-->
+				<Item Cat="20" Index="100" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="21;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="1">
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="22;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="22;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="23;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="23;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="24;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="24;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="25;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="25;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="26;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="26;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="27;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 6-->
+				<Item Cat="20" Index="101" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="27;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+			<Drop Rate="1000" Count="1" Type="1">
+				<!--Spider Artifact Type 7-->
+				<Item Cat="20" Index="102" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="29;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 7-->
+				<Item Cat="20" Index="102" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="29;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 7-->
+				<Item Cat="20" Index="102" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="31;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 7-->
+				<Item Cat="20" Index="102" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="31;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 7-->
+				<Item Cat="20" Index="102" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="32;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 7-->
+				<Item Cat="20" Index="102" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="32;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 7-->
+				<Item Cat="20" Index="102" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="34;9;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+				<!--Spider Artifact Type 7-->
+				<Item Cat="20" Index="102" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="34;10;-1;-1;-1;-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

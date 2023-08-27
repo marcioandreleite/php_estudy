@@ -1,0 +1,20 @@
+{
+    "active": 1,
+    "req_email": 1,
+    "req_secret": 1,
+    "min_username": 4,
+    "max_username": 10,
+    "min_password": 4,
+    "max_password": 10,
+    "password_strength": {
+        "atleast_one_lowercase": 0,
+        "atleast_one_uppercase": 0,
+        "atleast_one_number": 0,
+        "atleast_one_symbol": 0
+    },
+    "email_validation": 0,
+    "generate_password": 0,
+    "email_domain_check": 0,
+    "domain_whitelist": "",
+    "accounts_per_email": 100
+}

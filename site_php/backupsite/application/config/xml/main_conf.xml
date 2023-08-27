@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<main_conf>
+  <main>
+    <servername>PvPMU</servername>
+    <site_url>https://pvpmu.net/</site_url>
+    <forum_url>https://discord.gg/rjWG6aYkTE</forum_url>
+    <con_check>1</con_check>
+    <template>undead</template>
+    <timezone>America/Sao_Paulo</timezone>
+    <cache_type>file</cache_type>
+    <mem_cached_ip/>
+    <mem_cached_port/>
+    <grand_open_timer>2023/07/01 12:00</grand_open_timer>
+    <grand_open_timer_text>Event</grand_open_timer_text>
+    <maintenance>0</maintenance>
+    <use_ajax_page_load>0</use_ajax_page_load>
+  </main>
+</main_conf>

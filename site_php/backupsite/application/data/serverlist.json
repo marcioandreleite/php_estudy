@@ -1,0 +1,28 @@
+{
+    "PVPMU": {
+        "db": "MuOnline",
+        "db_acc": "MuOnline",
+        "title": "Hard",
+        "visible": 1,
+        "identity_column_character": "id",
+        "inv_size": 7648,
+        "wh_size": 7680,
+        "inv_multiplier": 236,
+        "wh_multiplier": 240,
+        "wh_hor_size": 8,
+        "wh_ver_size": 15,
+        "item_size": 64,
+        "gs_list": "Main,Regular,Instance,Arca,Market,Siege,PvP(1),PvP(2),NoPvP,VIP",
+        "gs_ip": "167.114.208.77",
+        "gs_port": "56900",
+        "max_players": "500",
+        "version": "Season XVIII",
+        "exp": "75x",
+        "drop": "30%",
+        "job_rate": "0",
+        "jos_rate": "0",
+        "jol_rate": "0",
+        "cm_rate": "0"
+    },
+    "USE_MULTI_ACCOUNT_DB": false
+}
